@@ -80,9 +80,16 @@ footer a{
     text-decoration: none;
 }
 
+
+/*Media Query*/
 @media (orientation: portrait) {
     .vista-col{
         display: flex;
         flex-direction: column;
+    }
+
+    .prod-responsive{
+        width: 8rem;
+        height: 8rem;
     }
 }

@@ -33,12 +33,18 @@ body {
 .centrar-productos{
     width: 12rem;
     text-align: center;
+    align-items: center;
 }
 
 /*Tamaño de los productos*/
-.productos-carrito{
+.productos-carrito {
     width: 5em;
     height: 5em;
+}
+
+/*Tamaño de la letra de los productos de la tienda*/
+.card-title-propio{
+    font-size: 1rem;
 }
 
 /*Boton productos*/
@@ -63,7 +69,7 @@ body {
 
 /*Tamaño imagenes descripciones lineas*/
 .img-desc-lineas{
-    width: 15em;
+    width: 20em;
     height: 15em;
 }
 
@@ -72,4 +78,11 @@ body {
 footer a{
     color: white;
     text-decoration: none;
+}
+
+@media (orientation: portrait) {
+    .vista-col{
+        display: flex;
+        flex-direction: column;
+    }
 }
